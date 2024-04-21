@@ -1,0 +1,206 @@
+/*Import*/
+@import url(Responsive.css);
+/*Reset Page*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Main Style*/
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none!important;
+    border: none!important;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*Navbar*/
+div.collapse .nav-item a{
+    font-weight: bolder;
+}
+.btns button{
+    padding: .6rem 1.4rem;
+}
+.btns button:nth-child(odd){
+    background-color: #E0F2E5;
+    color: green !important;
+    border: none;
+}
+.btns button:nth-child(odd):active{
+    color: #fff;
+    background-color: none;
+}
+/*Showcase Style*/
+.col-lg-6 .btn , .about .btn{
+    padding: .8rem 1.9rem;
+}
+.col-lg-6 h1{
+    font-weight: bolder!important;
+    padding-bottom: 1.2rem;
+    font-size: 50px;
+   
+}
+.col-lg-6{
+    color: #aaa5a5;
+    font-size: 19px;
+}
+/*Animate Showcase*/
+.showcase .animate__backInLeft , .animate__backInRight,
+.about .animate__backInLeft , .about .animate__backInRight
+{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+/*Services Style*/
+.services .text-success{
+    font-weight: bolder;    
+}
+.services .col-lg-4:nth-of-type(1){
+    border: none!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.services .col-lg-4{
+    border: 1px solid #E0F2E5;
+    padding: 1.8rem!important;
+}
+.services .text h2{
+    font-size: 50px !important;
+    margin-top: 1rem!important;
+}
+.services .col-lg-4 div ,.works .col-lg-6 div {
+    width: 4rem;
+    height: 4rem;
+    background-color: #E9E4FB;
+    color: #917AEB;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.services .col-lg-4 div:nth-of-type(3){
+    background-color: #dcf0e2!important;
+    
+}
+
+/*Transition In Div*/
+.services .row .col-lg-4:nth-child(2n+2) > div ,
+.services .row .col-lg-4:nth-child(2n+3) > div{
+    transition: all 1.4s ease-in-out!important;
+}
+.services .row .col-lg-4:nth-child(2n+2):hover{
+    transform: scale(1.1);
+    border: none;
+    background-color: #E9E4FB;
+}
+.services .row .col-lg-4:nth-child(2n+3):hover{
+    transform:scale(.9);
+    border: none;
+    background-color:#DCF0E2;
+}
+/* .services .row .col-lg-4:nth-child(2n+3):hover{
+    background-color:#aaa5a5!important;
+} */
+/*End Transition*/
+
+.services .col-lg-4 h2{
+    color: black;
+    font-weight: bold;
+    font-size: 25px!important;
+    margin-bottom: 1rem;
+    margin-top: .6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
+}
+.text>h2 {
+    font-weight: bolder;
+}
+/*About Style*/
+
+.about .row{
+    gap: 6rem;
+}
+.about h1{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about .col-lg-4 div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
+    font-weight: bold;
+}
+/*How It Works Style*/
+.works .col-lg-6 div{
+    position: relative;
+    top: 6rem;
+}
+.works .col-lg-6 h2 , .works > .col-lg-6 p {
+    margin-left: 6rem;
+}
+.works .col-lg-6 h2{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+.works .col-lg-6 i{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.works .p_div{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+/*Contact Style*/
+.contact .col-lg-3{
+    line-height: 2.5rem!important;
+}
+.contact .bordered {
+    border: 1px solid #F8F9FA;
+    padding: 2.5rem 2rem;
+    line-height:1.6rem!important;
+    position: relative !important;
+    bottom: 2.8rem!important;
+}
+.contact .text-success{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact .col-md-6 .col-md-4 .Input_div{
+    padding: .6rem 1rem;
+    outline: 1px solid ;
+    outline-color: #198750!important;
+    font-size: 1rem;
+}
+.contact .col-lg-3 .btn-success{
+    position: relative;
+    left: 11.1rem;
+    bottom: 3.1rem;
+    padding: .7rem 1rem;
+}
+/*Footer Style*/
+.footer{
+    background-color: #F8F9FA!important;
+}
+.footer .btns {
+    gap: 1.7rem!important;
+    
+}
+.footer .btns img:nth-of-type(1){
+    border: 1px solid;
+    border-radius: .5rem;
+    padding: 1rem!important;
+    cursor: pointer;
+    
+}
+.footer .btns img:nth-of-type(2){
+    border: 1px solid;
+    border-radius: .5rem;
+    padding: 1rem!important;
+    cursor: pointer;
+}
+.footer .btns img:nth-of-type(3){
+    border: 1px solid;
+    border-radius: .5rem;
+    padding: 1rem!important;
+    cursor: pointer;
+}

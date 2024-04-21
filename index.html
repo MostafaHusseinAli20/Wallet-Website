@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet</title>
+    <!-----Favicon------->
+    <link
+      rel="shortcut icon"
+      href="./Vendor/images/favicon.png"
+      type="image/x-icon"
+    />
+    <!-----Font Aowsome------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-----Google Fonts------>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <!-----Bootstrap Css----->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-----Animat Css-------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-----Hover Css--------->
+    <link rel="stylesheet" href="./node_modules/hover.css/css/hover-min.css" />
+    <!-----Link Custom Css--->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--------------Navgtion------------------>
+    <nav class="navbar navbar-expand-xl bg-body-tertiary py-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./Vendor/images/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5 text-dark"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-dark" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-dark" href="#How-It-Works"
+                >How It Works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-dark" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-dark" href="#Contact">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle fs-5 text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu py-2 my-4">
+                <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item text-dark" href="#">Another action</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item text-dark" href="#"
+                    >Something else here</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex btns">
+            <button class="btn btn-success mx-2" type="submit">Log In</button>
+            <button class="btn btn-success mx-2" type="submit">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!------------Showcase Section-------------->
+    <header class="bg-body-tertiary py-5 showcase">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 mt-3 animate__backInLeft">
+            <h1 class="text-dark">
+              Get A Featest Loan <br />
+              with A Smart Way <br />
+              By Seating At <br />
+              Home
+            </h1>
+            <p class="mb-4">
+              We have collected the best offers of credit instiutions and banks
+              <br />
+              of Colombia. It remains to choose what suits you as fast as you.
+            </p>
+            <button class="btn btn-success">
+              Applay Loan Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="col-lg-6 col-sm-12 animate__backInRight">
+            <img src="./Vendor/images/banner/banner.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!----------Services Section---------------->
+    <section class="my-4 services" id="Services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text">
+            <h5 class="text-success mt-4">OUR SERVICES</h5>
+            <h2 class="text-dark">
+              Our online and <br />
+              offline services
+            </h2>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              doloremque alias consectetur?
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="text-center py-3 rounded">01</div>
+            <h2 class="pt-3">Personal loans</h2>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              ullam accusamus iste fugit totam laudantium?
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="text-center py-3 rounded bg-success p-2 bg-opacity-25 text-success"
+            >
+              02
+            </div>
+            <h2 class="pt-3">Home Equity Loans</h2>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa
+              voluptatem a, expedita veniam consequuntur?
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="text-center py-3 rounded">03</div>
+            <h2 class="pt-3">Student Loans</h2>
+            <p class="text-body-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
+              deleniti officiis, tempore nihil voluptatum autem?
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="text-center py-3 rounded bg-success p-2 bg-opacity-25 text-success"
+            >
+              04
+            </div>
+            <h2 class="pt-3">Mortgage Loans</h2>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+              provident dignissimos facilis id? Animi, vel.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="text-center py-3 rounded">05</div>
+            <h2 class="pt-3">Payday Loans</h2>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
+              provident assumenda perferendis nulla reiciendis? Aut.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------About Section----------->
+    <section class="bg-body-tertiary about py-5" id="About">
+      <div class="container py-5">
+        <div class="row d-flex">
+          <div class="col-lg-4 col-md-12 col-sm-12 animate__backInLeft">
+            <div class="text-success mb-3">ABOUT OURSELVES</div>
+            <h1>
+              Fast Funding &amp; A <br />
+              Flexible Payment
+            </h1>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              in, ratione modi facere cupiditate dolore ex esse culpa doloribus
+              nobis eos est dolores rerum repudiandae a officia, nemo quam non?
+            </p>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              impedit repudiandae numquam? Nulla, omnis. Illo, voluptatem odio
+              reiciendis tempore esse odit possimus cum autem? Nulla assumenda
+              eaque id minus quod voluptate molestias
+            </p>
+            <button class="btn btn-success py-2 my-2">Know About Us</button>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 animate__backInRight">
+            <img class="" src="./Vendor/images/about-us.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------How It Works Section----->
+    <section class="my-5 works" id="How-It-Works">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <h5 class="text-success">DIFFERNCE OF US</h5>
+            <h1 class="text-dark">
+              What Makes Us <br />
+              Different Form <br />
+              Other?
+            </h1>
+            <p class="text-body-secondary">
+              acacnjac sdnouNCS dus. Veritatis <br />
+              consequuntur officvero illum quam officiis esse quis voluptates
+            </p>
+
+            <p class="text-body-secondary">
+              Lorem imus sequi exercitationem ex natus eligendi<br />
+              repellendus debitis , ipsa amet aut veniam dicta quae labore
+              beatae <br />
+              consequatur perferendis neque fugiat illo! Nulla, id. Ratione,
+              ipsum!
+            </p>
+          </div>
+          <div class="col-lg-6 col-sm-12 .second_div mb-5">
+            <div class="border rounded">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h2>Fast And Secure Process</h2>
+            <p class="p_div">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Praesentium possimus veniam nisi quae voluptatibus aliquam.
+            </p>
+
+            <div
+              class="border rounded bg-success p-2 bg-opacity-25 text-success"
+            >
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <h2>Quick Question Answers</h2>
+            <p class="p_div">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              iste accusantium asperiores. Odit?
+            </p>
+
+            <div class="border rounded">
+              <i class="fa-solid fa-money-bill"></i>
+            </div>
+            <h2>We Get You Cash Quick</h2>
+            <p class="p_div">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              sed quibusdam nisi soluta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------Contact Section----------------->
+    <section class="py-5 my-5 contact" id="Contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <ul>
+              <h4 class="text-success">Services</h4>
+              <li>Personal loans</li>
+              <li>Home Equity Loans</li>
+              <li>Student Loans</li>
+              <li>Mortgage Loans</li>
+              <li>Payday Loans</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <ul>
+              <h4 class="text-success">About</h4>
+              <li>Benefits</li>
+              <li>Careers</li>
+              <li>Our Story</li>
+              <li>Team</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <ul>
+              <h4 class="text-success">Help</h4>
+              <li>Contact Us</li>
+              <li>FAQs</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 bordered bg-body-tertiary">
+            <h4 class="text-success">Subscribe</h4>
+            <div class="col-md-4 my-3">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="Input_div rounded"
+                  placeholder="Email address"
+                  required
+                />
+                <label class="btn btn-success"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></label>
+              </div>
+            </div>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+              voluptatem doloremque. Distinctio ipsa unde officia eos tempore
+              assumenda mollitia aliquam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------Footer--------------->
+    <footer class="bg-body-tertiar footer">
+      <nav class="navbar navbar-expand-xl bg-body-tertiary py-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./Vendor/images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fs-5 text-body-secondary"
+                  aria-current="page"
+                  href="#"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 text-body-secondary" href="#"
+                  >Terms &amp; Conditions</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex btns py-5">
+              <img class="" src="./Vendor/icons/facebook.svg" alt="" />
+              <img class="" src="./Vendor/icons/twitter.svg" alt="" />
+              <img class="" src="./Vendor/icons/instagram.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <!-----Bootstrap.js & popper.js----------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+      integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+      integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
